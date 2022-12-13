@@ -1,0 +1,133 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial;
+  }
+
+.navbar .original {
+    float: left;
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: rgb(197, 243, 247);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: right;
+    font-weight: bold;
+  }
+  
+  /* Dropdown button */
+  #dlabel {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 20px 20px;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-menu {
+    background-color: #f9f9f9;
+    min-width: 160px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-menu a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+
+body {background-color: rgb(211,211,211);}
+
+.container{background-color: white
+}
+.title{border-bottom: 5px;}
+
+.title h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30 px;
+    text-align: center;
+    color: darkblue;
+    border-bottom: 2px
+  }
+
+.thing h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30 px;
+    text-align: center;
+    color: darkblue;
+
+}
+
+.img-responsive{
+    float: left
+}
+
+.imageNav-photo{
+    float: center;
+    height: 100 px;
+    width: 100 px;}
+
+#newstuff {text-align: center;}
+#newstuff2 {text-align: left;}
+#data_stuff{text-align: center;}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+#Cloudiness_page{text-align: center;}
+#cloud_word{font-family: 'Times New Roman', Times, serif;
+font-size:large;
+}
+#Humidity_page{text-align: center;}
+#Humidity_word{font-family: 'Times New Roman', Times, serif;
+font-size: large;}
+
+#Temp_page{text-align: center;}
+#Temp_word{font-family: 'Times New Roman', Times, serif;
+font-size: large;}
+
+#Wind_page{text-align: center;}
+#Wind_word{font-family: 'Times New Roman', Times, serif;
+font-size: large;}
+
+h4 {text-align: center;
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
